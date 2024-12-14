@@ -4,7 +4,7 @@ The Inventory Manager Mod for Minecraft is a quality-of-life mod inspired by the
 ## Features
 Cycle Inventory Rows: Press a key to cycle through the 4 inventory rows and the hotbar.
 The idea for this mod was inspired by Stardew Valley's smooth inventory cycling, making it easier to access items stored in different rows.
-Keybinding: The key binding can be customized in the options menu. It is Tab by default
+Keybinding: The key binding can be customized in the options menu. It is back quote / tilda key by default.
 
 ## Installation
 Make sure you have Fabric installed for Minecraft.

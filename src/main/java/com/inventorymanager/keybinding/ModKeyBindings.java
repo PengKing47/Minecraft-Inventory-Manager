@@ -17,7 +17,7 @@ public class ModKeyBindings {
     public static final KeyBinding CYCLE_KEY = new KeyBinding(
         "key.inventorymanager.cycle_key", 
         InputUtil.Type.KEYSYM, 
-        GLFW.GLFW_KEY_TAB,
+        GLFW.GLFW_KEY_GRAVE_ACCENT,
         KeyBinding.INVENTORY_CATEGORY
     );
 
