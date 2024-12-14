@@ -11,8 +11,6 @@ import net.minecraft.client.util.InputUtil;
 import net.minecraft.screen.slot.SlotActionType;
 
 public class ModKeyBindings {
-
-    public static int currentRow = 9;
     
     public static final KeyBinding CYCLE_KEY = new KeyBinding(
         "key.inventorymanager.cycle_key", 
@@ -38,15 +36,31 @@ public class ModKeyBindings {
                 for(int i = 0; i < 9; i++){
                     CLIENT.interactionManager.clickSlot(
                     CLIENT.player.playerScreenHandler.syncId,
-                    i + currentRow,
+                    i+9,
                     i,
                     SlotActionType.SWAP,
                     CLIENT.player
                     );
                 }
-                currentRow += 9;
-                if(currentRow >= 35){
-                    currentRow = 9;
+
+                for(int i = 0; i < 9; i++){
+                    CLIENT.interactionManager.clickSlot(
+                    CLIENT.player.playerScreenHandler.syncId,
+                    i+18,
+                    i,
+                    SlotActionType.SWAP,
+                    CLIENT.player
+                    );
+                }
+
+                for(int i = 0; i < 9; i++){
+                    CLIENT.interactionManager.clickSlot(
+                    CLIENT.player.playerScreenHandler.syncId,
+                    i+27,
+                    i,
+                    SlotActionType.SWAP,
+                    CLIENT.player
+                    );
                 }
             }
         });
