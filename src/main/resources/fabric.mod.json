@@ -3,7 +3,7 @@
 	"id": "inventorymanager",
 	"version": "${version}",
 	"name": "InventoryManager",
-	"description": "This is aa mod to cycle through the rows of your inventory",
+	"description": "This is a mod to make inventory management easier",
 	"authors": [
 		"PengKing"
 	],
